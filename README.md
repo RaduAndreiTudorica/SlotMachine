@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SlotMachine
 *First project pclp1*
 
@@ -119,49 +118,17 @@ Gigel has a number of features he would like this simulator to have, as follows:
   You are required to implement this new game, which follows the rules below:
 
     1.The game takes place within the grid of the slot machine.
+    
     2.The goal is to start from the top-left corner of the grid and reach the bottom-right corner, following a path with the minimum total cost.
+    
     3.Moving to each symbol has an associated cost, and the total cost of a path is the sum of the costs of all the symbols traversed.
+    
     4.A valid move is a step in one of the four cardinal directions: up, down, left, or right.
+    
     5.The player cannot leave the grid.
+    
     6.The cost of stepping into a cell is the absolute difference between the symbol's value and the value of the starting symbol (i.e., the symbol at the top-left corner).
+    
     7.You are asked to compute the minimum cost path from the top-left to the bottom-right of the grid.
+    
     8.Gigel bets he can find this cost faster than you—if only he weren’t having a bit of financial trouble.
-=======
-Fisierul main
-
-    In fisierul main aloc matricea principala si o citesc impreuna cu numarul task-ului pe care o sa-l rulez si la final
-  dezaloc memoria.
-
-Fisierul task1
-
-    In task1.c rotesc o anumita coloana cu un numar de rotiri,izolez coloana respectiva si retin in alta variabila
-  elementul de pe ultima linie si suprascriu elementele incepand cu cel de jos pe care o sa-l pun pe prima linie si
-  afisez matricea.
-
-Fisierul task2
-
-    In task2.c calculez scorul obtinut in panu care este format din toate coloanele si primele 3 randuri.Folosesc un
-  algoritm de secventa maxima pentru a afla secventa de pe fiecare linie.Aflu cate numere diferite sunt in panou cu un
-  vector de frecventa.Scorul pe coloane il calculez daca cele 3 elemente sunt identice si cu coloanele secundare plec
-  din acelasi punct cu cele principale astfel daca gasesc o coloana principala si un secundare in acelasi timp adun doar
-  scorul pentru X.
-
-Fisierul task3
-
-    In task3.c ma folosec de task1 si task2 rotind coloanel dupa calculand pentru fiecare scorul.
-
-Fisierul task4
-
-    In task4.c parcurc matricea si fiecare element il inlocuiesc cu celelalte valori posibile(de la 0 la 9) si compar cu
-  o variabila in care memorez scorul maxim.
-
-Fisierul task5
-
-    In task5.c iau oricare 2 coloane si calculez scorul pentru oricare numar de rotiri si il compar cu variabila in care
-  retin maximul.
-
-Fisierul task6
-
-    In task6.c folosc algoritmul lui Dijkstra pentru cel mai scurt drum intr-un graf,fiecare element al matricei fiind
-  un nod in graful realizat cu valoare modulului scaderii intre elemnet si primul element(a[0][0]).
->>>>>>> e263c5f (adding files)
